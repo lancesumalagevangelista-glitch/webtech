@@ -1,0 +1,30 @@
+body{
+    background-color: plum;
+}
+
+h1{
+    font-size: 32px;
+    color: darkblue;
+    text-align: center;
+}
+
+h2{
+    font-size: 22px;
+    color: darkgreen;
+}
+
+p{
+    font-size: 16px;
+    line-height: 1.6;
+}
+ ul{
+    line-height: 2;
+ }
+
+ a{
+    color: whitesmoke;
+ }
+
+ a:hover{
+    color: aqua;
+ }
