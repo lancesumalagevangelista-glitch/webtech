@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <input type="text" name="" id="">
+    <input type="email" name="" id="">
+    <input type="password" name="" id="">
+    <input type="checkbox" name="" id="">
+    <input type="radio" name="" id="">
+    <input type="submit" value="">
+
+    <form action="#" method="post">
+        <div><label for="student-id">Student ID</label><input type="text" name="student-id" id="student-id"
+                required="required"></div>
+        <div><label for="fullname">Full Name</label><input type="text" name="fullname" id="fullname"
+                required="required"></div>
+        <div><label for="email">Email</label><input type="email" name="email" id="email" required="required"></div>
+        <div><label for="password">Password</label><input type="password" name="password" id="password"
+                required="required"></div>
+        <fieldset>
+            <legend>Gender</legend>
+            <label><input type="radio" name="gender" value="male">Male</input></label><label><input type="radio"
+                    name="gender" value="female">Female</input></label><label><input type="radio" name="gender"
+                    value="other">Other</input></label>
+        </fieldset>
+        <div><label for="course">Course</label>
+            <select name="course" id="course">
+                <option value="">Select Course</option>
+                <option value="cs">Computer Science</option>
+                <option value="it">Information Technology</option>
+                <option value="eng">Engineering</option>
+                <option value="bus">Business</option>
+            </select>
+        </div>
+        <fieldset>
+            <legend>Hobbies</legend>
+            <label><input type="checkbox" name="hobbies" value="reading">Reading</input></label><label><input
+                    type="checkbox" name="hobbies" value="sports">Sports</input></label><label><input type="checkbox"
+                    name="hobbies" value="gaming">Gaming</input></label><label><input type="checkbox" name="hobbies"
+                    value="music">Music</input></label>
+        </fieldset>
+        <div><label for="address">Address</label><textarea name="address" id="address" rows="4"></textarea></div>
+        <button type="submit">Submit</button>
+    </form>
+</body>
+
+</html>
